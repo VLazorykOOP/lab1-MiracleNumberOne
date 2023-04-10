@@ -1,6 +1,3 @@
-﻿ // ArrayFile.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <fstream>
 #include <ios>
@@ -11,10 +8,7 @@
 using namespace std;
 
 typedef double* pDouble;
-/*
-*   ConsoleInputArrayDouble
-*   
-*/
+
 int ConsoleInputSizeArray(const int sizeMax)
 {
     int size = 0; 
